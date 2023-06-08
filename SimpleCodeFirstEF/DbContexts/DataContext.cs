@@ -11,9 +11,9 @@ namespace SimpleCodeFirstEF.DbContexts
         {
             
         }
-
+       
         public DbSet<History> Histories => Set<History>();
-        public DbSet<StatusCode> StatusCodes => Set<StatusCodes>();
+        public DbSet<StatusCode> StatusCodes => Set<StatusCode>();
         public DbSet<UserTask> UserTasks => Set<UserTask>();
         public DbSet<User> Users => Set<User>();
 
