@@ -1,0 +1,8 @@
+﻿1.Descargar los complemetos nugget necesarios para EF.
+2.Crear la carpeta "Entities" Y agregar las clases que posteriormente seran las tablas en nuestra base de datos.
+	(Asegurarme de que todas las clases tengan los paquetes)
+3.Realizar la carpeta Dbcontex y una clase que heredara de Dbcontext
+4.En el app config realizar la cadena de conexion.
+5.En la clase que esta en DbContext ingresar las tablas como un "Dbset".
+6.En la clase program, luego del objeto builder ingresar la cadena de conexion con GetConnections string.
+7.En la consola de paquetes usar el comando "Add-migration" y luego usar "Update-database" con esto crearemos las tablas en la base de datos.
